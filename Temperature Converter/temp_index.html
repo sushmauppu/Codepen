@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="temp_style.css" />
+</head>
+<body>
+  <center>
+  <div class="converter-box">
+    <div class="box">
+      <h2>Temperature Converter</h2>
+      <div class="input-container">
+        <input type="text" id="celsius" placeholder="Celsius"><br><br>
+        <input type="text" id="fahrenheit" placeholder="Fahrenheit"><br><br>
+        <input type="text" id="kelvin" placeholder="Kelvin"><br><br>
+        <button class="convert-button" onclick="convertTemperature('celsius', 'fahrenheit')">C to F</button>
+        <button class="convert-button" onclick="convertTemperature('celsius', 'kelvin')">C to K</button><br><br>
+        <button class="convert-button" onclick="convertTemperature('fahrenheit', 'celsius')">F to C</button>
+        <button class="convert-button" onclick="convertTemperature('fahrenheit', 'kelvin')">F to K</button><br><br>
+        <button class="convert-button" onclick="convertTemperature('kelvin', 'celsius')">K to C</button>
+        <button class="convert-button" onclick="convertTemperature('kelvin', 'fahrenheit')">K to F</button><br><br>
+      </div><br><br><br><br>
+      <p id="result"></p>
+      <br><br>
+    </div>
+  </div>
+    </center>
+
+    <script src="temp_script.js"></script>
+</body>
+</html>
