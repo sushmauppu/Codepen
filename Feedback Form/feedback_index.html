@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subject Feedback System</title>
+<link rel="stylesheet" href="feedback_style.css" />
+</head>
+
+<body>
+<div id="page1">
+
+<h1><center>Student Login for Subject Feedback</center></h1>
+<fieldset>
+<center><img src="https://sraap.in/index_files/sr-university-logo_round.png" width="150" height="150"></center><br>
+<center><label for="name">Name</label></center>
+<center><input type="text" id="name" required class="div-3"></center>
+<br>
+<center><label for="hallTicketNumber">Hall Ticket Number</label></center>
+<center><input type="text" id="hallTicketNumber" required class="div-3"></center>
+<br><br>
+<center><button onclick="signIn()" class="div-1">Sign In</button></center>
+</fieldset>
+</div>
+<br>
+
+<div id="page2" style="display: none;">
+
+<h1><center>SR ENGINEERING COLLEGE,WARANGAL</center></h1>
+<div id="feedbackForm">
+<fieldset>
+<h2><center>SUBJECTWISE   FEEDBACK   FORM </center></h2>
+<h3><center>Give your ratings for the subjects given below</center></h3> 
+<form onsubmit="return validateForm()">
+<center><table border="1" width="800" height="350"><tr>
+<th rowspan="2">SUBJECT</th>
+<th colspan="10">FEEDBACK</th>
+</tr>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+<tr>
+<th>Software Engineering</th>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+</tr>
+<tr>
+<th>Database Management System</th>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+</tr>
+<tr>
+<th>Computer Networks</th>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+</tr>
+<tr>
+<th>Operating Sytems</th>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+</tr>
+<tr>
+<th>Artificial Intelligence and Machine Learning</th>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+            <td><input type="radio" name="five"></td>
+</tr>
+</table></center><br>
+</table>
+<br>
+<center><input type="submit" value="Submit" class="div-2"></center>
+</form>
+</fieldset>
+
+</div>
+<br>
+</div>
+<script src="feedback_script.js"></script>
+</body>
+</html>
