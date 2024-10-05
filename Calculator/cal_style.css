@@ -1,0 +1,26 @@
+.calc
+{
+    border:2px solid;
+    margin:0px auto;
+    width:260px;
+    padding:0px;
+
+}
+input[type="text"]
+{
+    margin:5px;
+    width:240px;
+    height:50px;
+    font-size:20px;
+}
+input[type="button"]
+{
+    margin:5px;
+    width:50px;
+    height:55px;
+    font-size:20px;
+ }
+ body
+ {  
+     background-image: url('https://i.pinimg.com/564x/4b/fc/65/4bfc655d8840cfc67b35567d767cd09f.jpg') ;      
+}
